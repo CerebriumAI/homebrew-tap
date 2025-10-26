@@ -3,7 +3,7 @@ cask "cerebrium" do
   name "cerebrium"
   desc "CLI for deploying and managing Cerebrium apps"
   homepage "https://www.cerebrium.ai"
-  version "2.0.0-rc.1"
+  version "2.0.0-rc.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "cerebrium" do
 
   on_macos do
     on_intel do
-      url "https://github.com/CerebriumAI/cerebrium-cli/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "ba56ec29a94b0f9baaa3b6f9984e62200d94669d81c9bab7bc08af87f6fcf4c6"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_amd64.tar.gz"
+      sha256 "0d482c1bd48f483f77abe77d2c9a5afc8fc22a07eacc8084efcc7880efa11a97"
     end
     on_arm do
-      url "https://github.com/CerebriumAI/cerebrium-cli/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "154a1d13f10a54a8e03ad65dcf491fdb5c5a93fd182f115a78ae177d729b14a8"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_arm64.tar.gz"
+      sha256 "8e5734f9a1cb06228b5e76cc3dba64a5b7d2132531ec4e885061e154d43cc1fe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/CerebriumAI/cerebrium-cli/releases/download/v#{version}/cerebrium_cli_#{version}_linux_amd64.tar.gz"
-      sha256 "2d2731e4a17c84a3990929a910f77aa2cca0efcde2c823447fcf741ea7d52b7d"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_linux_amd64.tar.gz"
+      sha256 "e7d6a99bf75e8fc746b75390f44a52af6e9908fe3442f960c6ecad02dfe76fef"
     end
     on_arm do
-      url "https://github.com/CerebriumAI/cerebrium-cli/releases/download/v#{version}/cerebrium_cli_#{version}_linux_arm64.tar.gz"
-      sha256 "05a3504b784dceec2e9c4fde728af8f519bb3f77cef48e3b79650a5ded0881f1"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_linux_arm64.tar.gz"
+      sha256 "75503a9cf033c0e0f3e98d28d08194c834de4b8c3352d17c8a2fba8432d22ca2"
     end
   end
 
