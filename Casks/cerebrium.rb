@@ -3,7 +3,7 @@ cask "cerebrium" do
   name "cerebrium"
   desc "CLI for deploying and managing Cerebrium apps"
   homepage "https://www.cerebrium.ai"
-  version "2.0.0-rc.2"
+  version "2.0.0-rc.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "cerebrium" do
 
   on_macos do
     on_intel do
-      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "0d482c1bd48f483f77abe77d2c9a5afc8fc22a07eacc8084efcc7880efa11a97"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_darwin_amd64.tar.gz"
+      sha256 "53dc091cc92073b3a652d22a73d7b4a6197c83340a91b2f06e613acd034fced5"
     end
     on_arm do
-      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "8e5734f9a1cb06228b5e76cc3dba64a5b7d2132531ec4e885061e154d43cc1fe"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_darwin_arm64.tar.gz"
+      sha256 "e5878e27eb140a3fc3c750a7dafe5807f4dd94990ffd4d8f6d565b9118d72c5b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_linux_amd64.tar.gz"
-      sha256 "e7d6a99bf75e8fc746b75390f44a52af6e9908fe3442f960c6ecad02dfe76fef"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_linux_amd64.tar.gz"
+      sha256 "4ea42f624b764ba7263f8f8cd7ececb1d8b49c684e0384ca3e48882ba6ebec37"
     end
     on_arm do
-      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_#{version}_linux_arm64.tar.gz"
-      sha256 "75503a9cf033c0e0f3e98d28d08194c834de4b8c3352d17c8a2fba8432d22ca2"
+      url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_linux_arm64.tar.gz"
+      sha256 "a2a8e47b13eaf3bca8f659bb6f940e1e531afff80cd8908c297a86eaeeaaafde"
     end
   end
 
