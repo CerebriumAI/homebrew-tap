@@ -3,7 +3,7 @@ cask "cerebrium" do
   name "cerebrium"
   desc "CLI for deploying and managing Cerebrium apps"
   homepage "https://www.cerebrium.ai"
-  version "2.0.2"
+  version "2.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cerebrium" do
   on_macos do
     on_intel do
       url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_darwin_amd64.tar.gz"
-      sha256 "3178018adcfc0c0d83df3a50faac4bd41fcea64777e6315517e0c246c5fee9da"
+      sha256 "7295711418599e2294329b96862695d54e7d6bbcf17f3ef0794b6472b3cab30b"
     end
     on_arm do
       url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_darwin_arm64.tar.gz"
-      sha256 "018772aa9e6ee49d7dd1d74972383eee33d7fc9542ad4ae1c8a73682422437f1"
+      sha256 "ca34ede997e9e0f30f90a966c4442e9f0cbac254f6786800eb7521d344f47a87"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_linux_amd64.tar.gz"
-      sha256 "b5637c8e4ddae5e884336bb4fd3a1db710afc07b5980b241084cd92362540a49"
+      sha256 "682b3a9f93b4fbd924d9cee001b3670272421529b1e8eddb4d9a4f84d683afa2"
     end
     on_arm do
       url "https://github.com/CerebriumAI/cerebrium/releases/download/v#{version}/cerebrium_cli_linux_arm64.tar.gz"
-      sha256 "4112ed60f5e0cf5a5decdcd1585975ed14741613dc5701b8e0c7f0e7fc70de4f"
+      sha256 "e847b0535f1b7a0be57a337679fb8e40aa1c0e3cbd599bc39ba0ada0ab3fb121"
     end
   end
 
